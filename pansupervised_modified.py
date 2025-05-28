@@ -13,7 +13,7 @@ from sklearn.model_selection import train_test_split # Optional: if you want to 
 
 # --- Configuration ---
 # GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
-GOOGLE_API_KEY = "AIzaSyBcAbNgYYdur33LW1jWRcNMST-6LeFVdlU"  # <--- REPLACE WITH YOUR GEMINI API KEY
+GOOGLE_API_KEY = ""  # <--- REPLACE WITH YOUR GEMINI API KEY
 
 if not GOOGLE_API_KEY:
     raise ValueError("GOOGLE_API_KEY not set. Please set it as an environment variable or directly in the script.")
