@@ -6,7 +6,7 @@ import time
 from typing import List
 
 # Set your API keys
-GOOGLE_API_KEY = "AIzaSyBcAbNgYYdur33LW1jWRcNMST-6LeFVdlU"  # Replace with your Gemini API key
+GOOGLE_API_KEY = ""  # Replace with your Gemini API key
 genai.configure(api_key=GOOGLE_API_KEY)
 
 #  Define paths
